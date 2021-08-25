@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+
+#show-ninja{
+    width: 25%;
+    height: 10%;
+    font-size: 5vh;
+    font-style: normal;
+    background-color: greenyellow;
+    font-weight: 600;
+}
+
+.images-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+}
+img{
+    text-align: center;
+    display: block;
+}
